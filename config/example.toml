@@ -1,0 +1,23 @@
+[server]
+
+[server.http]
+port = 8081
+
+[database]
+
+[database.mongo]
+username = "username"
+password = "password"
+cluster = "db.h99zczc.mongodb.net"
+
+[token]
+
+secret = "mysecretkey"
+
+# Ед. измерения: минуты
+
+[token.access]
+exp = 60
+
+[token.refresh]
+exp = 1440
